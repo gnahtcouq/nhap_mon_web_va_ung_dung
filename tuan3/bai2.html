@@ -2,35 +2,30 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bài 2</title>
     <style>
         table,
         th,
         td {
-            border: 1px solid rgb(198, 198, 198);
+            border: 3px solid rgb(198, 198, 198);
             border-collapse: collapse;
             padding: 5px;
-        }
-        
-        th {
             text-align: center;
-        }
-        
-        table {
-            border-spacing: 5px;
         }
     </style>
 </head>
 
 <body>
+    <img src="bai2.PNG" width="500px" height="300px" />
+    <br /><br />
     <table>
         <tr>
             <th rowspan="2">STT</th>
             <th rowspan="2">Họ tên</th>
-            <th colspan="3" style="text-align:center">Điểm</th>
+            <th colspan="3" style="text-align: center">Điểm</th>
             <th rowspan="2">Tổng cộng</th>
         </tr>
         <tr>
@@ -40,7 +35,7 @@
         </tr>
         <tr>
             <td>1</td>
-            <td>Nguyễn Văn A</td>
+            <td style="text-align: left">Nguyễn Văn A</td>
             <td>7</td>
             <td>6</td>
             <td>9</td>
@@ -48,7 +43,7 @@
         </tr>
         <tr>
             <td>2</td>
-            <td>Lê thị B</td>
+            <td style="text-align: left">Lê thị B</td>
             <td>8</td>
             <td>7</td>
             <td>7</td>
@@ -56,23 +51,29 @@
         </tr>
     </table>
 
-    <br><br>
+    <br />
 
     <table>
         <tr>
-            <th colspan="2">Phiếu tham dự bình chọn Top ten "Làn sóng xanh" FM</th>
-            <th rowspan="1" colspan="1">Tháng 9/2009</th>
+            <th colspan="2">
+                Phiếu tham dự bình chọn<br /> Top ten "Làn sóng xanh" FM
+            </th>
+            <th>Tháng 9/2009</th>
         </tr>
         <tr>
-            <td rowspan="3" colspan="1">Ca khúc bạn yêu thích</td>
+            <td rowspan="3" colspan="1">
+                Ca khúc bạn<br /> yêu thích
+            </td>
             <td>Tên bài hát:</td>
+            <td rowspan="3" colspan="1" style="padding-top: 68px">
+                (Họ tên và chữ ký)
+            </td>
         </tr>
         <tr>
             <td>Tác giả:</td>
         </tr>
         <tr>
             <td>Ca sĩ trình bày:</td>
-            <td rowspan="3" colspan="1">(Họ tên và chữ ký)</td>
         </tr>
     </table>
 </body>
