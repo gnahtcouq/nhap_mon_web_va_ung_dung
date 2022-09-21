@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 3</title>
+    <style>
+        table,
+        tr,
+        td {
+            padding-top: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <fieldset style="width: 500px; height: 400x;">
+            <h2 style="text-align: center">Đăng ký thành viên</h2>
+            <table>
+                <tr>
+                    <td>
+                        <label for="username">Tên đăng nhập</label>
+                    </td>
+                    <td>
+                        <input type="text" id="username" name="username" size="50">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="password">Mật khẩu</label></td>
+                    <td>
+                        <input type="password" id="password" name="password" size="50">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="password">Nhập lại mật khẩu</label></td>
+                    <td>
+                        <input type="password" id="password" name="password" size="50">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="placeofbirtd">Nơi sinh</label>
+                    </td>
+                    <td>
+                        <select id="placeofbirtd" name="placeofbirtd">
+                          <option>Chọn nơi sinh</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="sex">Giới tính</label>
+                    </td>
+                    <td>
+                        <input type="radio" id="Man" name="sex" value="Man">
+                        <label for="man">Nam</label>
+                        <input type="radio" id="Woman" name="sex" value="Woman">
+                        <label for="woman">Nữ</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="avatar">Hình đại diện</label>
+                    </td>
+                    <td>
+                        <input type="file" id="myFile" name="filename">
+                    </td>
+                </tr>
+            </table>
+            <div style="text-align: center; padding-top: 20px;">
+                <button>Đăng ký</button>
+                <button>Nhập lại</button>
+            </div>
+        </fieldset>
+    </form>
+</body>
+
+</html>
