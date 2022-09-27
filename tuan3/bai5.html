@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 5</title>
+    <style>
+        .send {
+            width: 100px;
+            height: 40px;
+            text-align: center;
+            background-color: rgb(40, 226, 124);
+            color: black;
+            border: 2px;
+            font-size: large;
+            border-radius: 8px;
+            border-color: green;
+        }
+
+        fieldset {
+            width: 500px;
+            height: auto;
+        }
+
+        .custom {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Choosing the correct field</h1>
+    <p>
+        Please create the right HTML form field(s) for each
+        <small>fieldser</small> below
+    </p>
+    <div>
+        <li><a href="">Text entry</a></li>
+        <li><a href="">Boolean choices</a></li>
+        <li><a href="">Single choice</a></li>
+        <li><a href="">Multiple choices</a></li>
+        <li><a href="">Other form fileds</a></li>
+    </div>
+    <br /><br /><br />
+    <form action="action_page.php" class="custom">
+        <fieldset>
+            <legend>Simple text:Nickname</legend>
+            <input type="text" value="Nickname" /><br />
+        </fieldset>
+        <fieldset>
+            <legend>Multi-line Text: Biography</legend>
+            <textarea cols="30" rows="10"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Mobile phone number</legend>
+            <input type="tel" value="090+" />
+        </fieldset>
+        <fieldset>
+            <legend>Website</legend>
+            <input type="text" value="Website" />
+        </fieldset>
+        <fieldset>
+            <legend>Date of birth</legend>
+            <input type="date" style="size: 100px" />
+        </fieldset>
+        <fieldset>
+            <legend>Age</legend>
+            <input type="number" min="1" max="100" />
+        </fieldset>
+        <br /><button class="send" style="text-align: center">
+            <strong> Send</strong>
+        </button>
+    </form>
+    <br /><br /><br />
+    <h1>Boolen / Binary choices</h1>
+    <form action="action_page.php">
+        <fieldset>
+            <legend>True / False, with a default choice</legend>
+            <input type="checkbox" />
+        </fieldset>
+        <fieldset>
+            <legend>Confim</legend>
+            <input type="checkbox" />
+        </fieldset>
+        <fieldset>
+            <legend>Yes or No</legend>
+            <input type="checkbox" />
+        </fieldset>
+        <br /><button class="send" style="text-align: center">
+            <strong> Send</strong>
+        </button>
+    </form>
+    <br /><br /><br /><br />
+    <form action="action_page.php">
+        <fieldset>
+            <legend>Small list of values</legend>
+            <select name="small" id="small">
+                <option value="1">bananas</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Large list of values</legend>
+            <select name="large" id="large" size="3" style="width: 100px; height: 70px">
+                <option value="1">Ducks</option>
+                <option value="2">Eagles</option>
+                <option value="3">Herons</option>
+                <option value="4">Gulls</option>
+            </select>
+        </fieldset>
+        <br /><button class="send" style="text-align: center">
+            <strong> Send</strong>
+        </button>
+    </form>
+    <br /><br /><br />
+    <h1>Other form fileds</h1>
+    <fieldset>
+        <legend>Hidden</legend>
+    </fieldset>
+    <br />
+    <fieldset>
+        <legend>File(s)</legend>
+    </fieldset>
+    <br />
+    <fieldset>
+        <legend>Range</legend>
+    </fieldset>
+    <br />
+    <fieldset>
+        <legend>Colour</legend>
+    </fieldset>
+    <br />
+    <br /><button class="send" style="text-align: center">
+        <strong> Send</strong>
+    </button>
+</body>
+
+</html>
